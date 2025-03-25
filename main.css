@@ -1,0 +1,371 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    
+  
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Azeret+Mono:wght@100&family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karantina:wght@700&family=Oswald:wght@700&display=swap');
+
+section#header {
+    text-align: left;
+    color: white;
+    padding-left: 50px;
+    padding-top: 35px;
+    font-size: 35px;
+    font-style: italic;
+    font-family: 'Anton', sans-serif;
+    font-weight: 900;
+    display: flex;
+    
+    
+    
+}
+
+section#header ul {
+    flex: 1;
+    font-size: 20px;
+    text-align: right;
+    padding-right: 50px;
+    
+    
+}
+
+
+section#header ul p {
+    display: inline-table;
+    padding: 6px 30px;
+    text-decoration: none;
+    color: white;
+    transition: 0.5s;
+}
+section#header ul p:hover {
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+
+div#main{
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url(Backgrounds/pexels-william-choquette-1954524.jpg);
+    background-size: cover;
+    position: relative;
+
+
+}
+
+section#yazi {
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+
+}
+
+
+section#yazi h1 {
+    font-size: 72px;
+}
+
+
+section#yazi p {
+    font-size: 23px;
+    margin: 20px 0 50px;
+}
+
+section#yazi a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    border: 1px solid white;
+    padding: 12px 34px;
+    background: transparent;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+
+
+section#yazi a:hover {
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+
+div#hakkimizda {
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url(Backgrounds/pexels-leon-ardho-1552242.jpg);
+    background-size: cover;
+    
+}
+
+section#baslik {
+    
+    color: white;
+    font-size: 55px;
+    text-align: center;
+    font-family: 'Karantina',bold;
+    font-weight: 900;
+    font-style: italic;
+}
+
+section#text {
+    text-align: center;
+    font-size: 23px;
+    color: white;
+    padding-top: 20%;
+    
+
+
+}
+
+section#socials {
+    
+
+    
+    text-decoration: none;
+    
+    padding-top: 35vh;
+    text-align: right;
+
+}
+
+section#socials ul {
+    text-decoration: none;
+    padding: 13px 25px;
+
+}
+
+section#socials ul a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 30px;
+    font-size: 40px;
+    transition: 0.5s;
+    
+}
+
+section#socials ul a#phone {
+    
+    float: left;
+    font-size: 30px;
+    
+    
+}
+
+
+
+
+
+
+
+
+section#socials ul a:hover {
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+
+
+
+
+div#kayit {
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url(Backgrounds/pexels-shvets-production-7191994.jpg);
+    background-size: cover;
+    
+}
+
+section#kayitbas {
+    padding-top: 35px;
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    font-family:  'Anton', sans-serif;
+    font-weight: 900;
+    font-style: italic;
+}
+
+form {
+    text-align: center;
+    font-size: 23px;
+    color: white;
+    padding-top: 10%;
+    
+
+
+
+
+}
+
+div.inpt {
+
+    padding: 0px 25px 35px;
+    
+}
+input {
+    font-size: 25px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.1);
+    color: white;
+}
+
+div#btn {
+    font-size: 30px;
+    padding-top: 15px;
+}
+button {
+    font-size: 30px;
+    width: 15%;
+    color: white;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    font-style: italic;
+   
+}
+
+p#aciklama {
+    text-align: center;
+    color: white;
+    padding-top: 18%;
+
+}
+
+p#hakup {
+    font-size: 50px;
+    color: white;
+    transition: 0.5s;
+}
+
+
+p#hakup:hover {
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+
+div#basari {
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url(Backgrounds/AdobeStock_291229205.jpeg);
+    background-size: cover;
+    position: relative;
+}
+
+
+section#statics {
+
+    text-align: center;
+    font-size: 65px;
+    color: white;
+    padding-top: 3%;
+
+
+}
+
+
+
+
+
+div.static {
+    padding: 10px 205px;
+    
+    display: inline-table;
+
+}
+
+div.static i{
+    font-size: 85px;
+
+}
+
+
+div.static i div{
+    padding-top: 15px;
+
+}
+
+
+div#photos {
+    text-align: center;
+    padding-top: 5%;
+}
+
+
+img#photo {
+    width: 280px;
+    height: 280px;
+    padding: 0px 15px;
+    border-radius: 50px;
+    opacity: 0.4;
+    cursor: pointer;
+    transition: 0.9s;
+}
+
+img#photo:hover {
+    opacity: 1;
+    width: 380px;
+    height: 380px;
+}
+
+
+
+p#basariyazisi {
+    text-align: center;
+    padding-top: 4%;
+    color: white;
+    font-size: 23px;
+}
+
+
+
+div#hizmet {
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url(Backgrounds/AdobeStock_238129300.jpeg);
+    background-size: cover;
+    position: relative;
+
+}
+
+
+div#photos div{
+    display: inline-table;
+}
+
+
+div#photos.ph{
+    padding-top: 10%;
+}
+
+img.hizmets {
+    display: inline-table;
+    width: 500px;
+    height: 300px;
+    padding: 0px 25px;
+    border-radius: 50px;
+
+
+}
+
+
+ul.hizmetaciklama {
+    list-style-type: none;
+    font-size: 20px;
+    color: white;
+}
+
+
+h1.hizmet {
+    font-size: 75px;
+    font-family: 'Karantina',bold;
+    font-weight: 700;
+    
+}
+

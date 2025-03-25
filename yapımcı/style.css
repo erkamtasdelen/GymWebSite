@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+div#main {
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url(AdobeStock_314836279-min.jpeg);
+    background-size: cover;
+    position: relative;
+}
+
+
+section.text {
+    text-align: center;
+    position:relative;
+    padding-top: 20%;
+    color: white;
+}
+
+
+section.text h1 {
+    font-size: 35px;
+    font-weight: 900;
+    font-style: italic;
+
+}
+
+
+section.text p {
+    font-size: 24px;
+    padding: 25px 0px;
+    font-style: italic;
+
+}
+
+
+
+section.iletişim {
+    text-align: left;
+    color: greenyellow;
+    font-size: 30px;
+    padding-top: 12%;
+
+}
+
+
+section.iletişim a#wp{
+    
+    text-align: left;
+    color: greenyellow;
+    font-size: 50px;
+    padding: 0px 25px;
+    
+}
+
+section a {
+    text-decoration: none;
+    color: white;
+}

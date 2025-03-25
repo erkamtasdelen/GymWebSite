@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url(Backgrounds/phpback.jpeg);
+    background-size: cover;
+    position: relative;
+
+}
+
+section#text {
+    color: white;
+    text-align: center;
+    padding-top: 18%;
+
+}
+
+section#text h1 {
+    font-size: 35px;
+}
+
+section#text p {
+    font-size: 24px;
+    padding: 35px 0px;
+}
